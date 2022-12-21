@@ -1,0 +1,15 @@
+@import "../../../styles/globals.css" @media (min-width: 900px) {
+  .lg\:hidden {
+    display: none;
+  }
+}
+
+.activedOption {
+  background-color: red;
+  color: var(--text-secondary);
+}
+
+
+.Mui-selected{
+  font-size: 24px;
+}
