@@ -6,5 +6,6 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   i18n,
+  experimental: { esmExternals: true },
 }
 module.exports = nextConfig

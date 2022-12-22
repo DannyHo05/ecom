@@ -32,6 +32,9 @@ module.exports = {
       backgroundColor:{
         primary:"var(--primary-bg)"
       },
+      borderColor:{
+        primary:"var(--primary-bd)"
+      },
       textColor: {
         base: "var(--text-base)",
         primary: "var(--text-primary)",

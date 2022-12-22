@@ -12,6 +12,7 @@ import { appWithTranslation } from "next-i18next";
 import { SWRConfig } from "swr";
 import { url } from "inspector";
 import axiosClient from "@/api-app/AxiosClient";
+import "swiper/css/bundle";
 const clientSideEmotionCache = createEmotionCache();
 
 interface MyAppProps extends AppPropsWithLayout {
@@ -38,7 +39,7 @@ const MyApp = (props: MyAppProps) => {
         <CacheProvider value={emotionCache}>
           <Head>
             <meta
-              name="viewport"
+              name="HaHa"
               content="initial-scale=1, width=device-width"
             />
           </Head>

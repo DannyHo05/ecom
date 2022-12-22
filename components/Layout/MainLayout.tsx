@@ -16,13 +16,9 @@ export const MainLayout = ({ children }: React.PropsWithChildren<{}>) => {
       <LoadingDots />
     </div>
   );
-
-  const dynamicProps = {
-    loading: Loading,
-  };
   return (
     <>
-      <Container maxWidth={false} disableGutters className="bg-primary min-h-screen text-primary" sx={{
+      <Container maxWidth={false} disableGutters className="min-h-screen text-primary" sx={{
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'space-between',
@@ -30,7 +26,8 @@ export const MainLayout = ({ children }: React.PropsWithChildren<{}>) => {
       }}>
           <Navbar></Navbar>
         <Container maxWidth="lg" sx={{
-          flexGrow: 1
+          flexGrow: 1,
+          backgroundColor:"white"
         }}>
         {children}
         </Container>
@@ -42,7 +39,7 @@ export const MainLayout = ({ children }: React.PropsWithChildren<{}>) => {
         action={
           <Button
             variant="contained"
-            className="mx-5 text-primary hover:text-white"
+            className="mx-5 text-primary hover:text-white bg-white"
             onClick={() => onAcceptCookies()}
           >
             Accept cookies

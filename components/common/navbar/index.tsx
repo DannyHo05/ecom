@@ -21,7 +21,7 @@ import {
   BottomNavigationAction,
   Button,
 } from "@mui/material";
-import logo from "@/assets/images/logo.png";
+import logo from "@/assets/images/logoGHTK.png";
 import { useTranslation, Trans } from "next-i18next";
 const Search = styled("div")(({ theme }) => ({
   position: "relative",
